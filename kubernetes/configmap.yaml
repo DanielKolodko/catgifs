@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: catgifs-config
+data:
+  DATABASE_URL: "sqlite:///database.db"
+  SECRET_KEY: "defaultsecretkey"
